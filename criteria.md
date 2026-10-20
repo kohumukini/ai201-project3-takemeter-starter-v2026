@@ -51,63 +51,55 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Balance - Each target label must account for a minimum of 25% of the total dataset
 
 <!-- Your criterion. It must name a number. -->
 
 
 
-**Why this target:**
+**Why this target:** Prevents trained model from biasing any of the other labels. It also ensures that even the smallest label has a large enough footprint within the dataset to be recognized. A perfect 33% for each label is unreasonable with a sample size of ~200 posts.
 
 
 
 ---
 
-## 2.
+## 2. Accuracy - Every label's F1 score is greater than 60%
 
 <!-- Your criterion. -->
 
 
 
-**Why this target:**
+**Why this target:** Ensures model accuracy. A model that predicts two labels correct 80% of the time, and one label correct 30% of the time could have a total accuracy of ~50%. There is zero utility for a model that cannot predict all three labels separately. 
 
 
 
 ---
 
-## 3.
+## 3. Per-label performance - Accuracy spread across the three labels is <= 10%
+
+<!-- Your criterion. -->
+
+**Why this target:** Label accuracy should fit within a tight bind. It also protects against the model predicting the dominant class when paired with a minimum of 25% of total data per label
+
+---
+
+## 4. At least 60% of the content on the bonadary between `analysis` and `guide` are sorted correctly
 
 <!-- Your criterion. -->
 
 
 
-**Why this target:**
+**Why this target:** We have an ambiguity boundary defined between these two labels, and the model should be able to discern between the two at least by the min rate of accuracy for all three labels.
 
 
 
 ---
 
-## 4.
+## 5. Accuracy spread across several seeds is at most 10%
 
 <!-- Your criterion. -->
 
-
-
-**Why this target:**
-
-
-
----
-
-## 5.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
+**Why this target:** Test's the model's stability. Ensures that the model is not lucky/overreliant on the seed to make accurate predictions, but maintains a reasonable accuracy across different seedings. 10% is a reasonable threshold to maintain as a range between the three seedings because of variance.
 
 ---
 
