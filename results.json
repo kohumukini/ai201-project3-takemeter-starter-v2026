@@ -1,38 +1,38 @@
 {
   "seed": 42,
   "n_test": 30,
-  "accuracy": 0.43333333333333335,
-  "f1_macro": 0.20155038759689922,
+  "accuracy": 0.7333333333333333,
+  "f1_macro": 0.652958152958153,
   "per_label": {
     "Analysis": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
+      "precision": 0.5833333333333334,
+      "recall": 0.7777777777777778,
+      "f1": 0.6666666666666666,
       "support": 9
     },
     "Guide": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
+      "precision": 0.6666666666666666,
+      "recall": 0.25,
+      "f1": 0.36363636363636365,
       "support": 8
     },
     "Opinion": {
-      "precision": 0.43333333333333335,
+      "precision": 0.8666666666666667,
       "recall": 1.0,
-      "f1": 0.6046511627906976,
+      "f1": 0.9285714285714286,
       "support": 13
     }
   },
   "confusion": {
     "Analysis": {
-      "Analysis": 0,
-      "Guide": 0,
-      "Opinion": 9
+      "Analysis": 7,
+      "Guide": 1,
+      "Opinion": 1
     },
     "Guide": {
-      "Analysis": 0,
-      "Guide": 0,
-      "Opinion": 8
+      "Analysis": 5,
+      "Guide": 2,
+      "Opinion": 1
     },
     "Opinion": {
       "Analysis": 0,
@@ -41,14 +41,14 @@
     }
   },
   "confidence": {
-    "mean_when_right": 0.47450685501098633,
-    "mean_when_wrong": 0.41731706261634827,
-    "accuracy_most_confident_third": 0.8,
-    "accuracy_least_confident_third": 0.1,
+    "mean_when_right": 0.5919121503829956,
+    "mean_when_wrong": 0.4832466244697571,
+    "accuracy_most_confident_third": 0.9,
+    "accuracy_least_confident_third": 0.5,
     "n_per_third": 10
   },
   "device": "cuda",
   "device_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
   "torch_version": "2.14.1+cu130",
-  "max_length": 128
+  "max_length": 512
 }

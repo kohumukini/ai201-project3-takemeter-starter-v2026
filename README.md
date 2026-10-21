@@ -891,9 +891,9 @@ I chose Guide, as the article was more focused on showing the user a process to 
 
 **Base model:** distilbert-base-uncased
 
-**Settings:** 3, 2e-5, 16, 42 in that order<!-- epochs, learning rate, batch size, seed -->
+**Settings:** 10, 2e-5, 32, 42 in that order<!-- epochs, learning rate, batch size, seed -->
 
-**Anything I changed from the defaults, and why:** I changed nothing. I wanted to train the model and get a baseline given the results so that I can comparee it to changes I make in the future.
+**Anything I changed from the defaults, and why:** I changed the epochs. I wanted to see if the amount of time training would increase the accuracy of the model. I also increased the batch size because I could. Training went pretty quick.
 
 **Split sizes:**70/15/15, 9, 9, 13 for Analysis, Guide, and Opinion respectively 
 <!-- train / val / test, and per-label counts in the test
@@ -939,16 +939,30 @@ of next unit's variance. -->
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
+### Before
+
+| Measure | Baseline |
+|---|---|
+| Overall accuracy | 0.367 |
+| Macro F1 | 0.241 |
+| F1 — `Analysis` | 0.000 |
+| F1 — `Guide` | 0.167 |
+| F1 — `Opinion` | 0.556 |
+
+### After
+
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.367 | 0.733 | +0.367 |
+| Macro F1 | 0.241 | 0.653 | +0.412 |
+| F1 — `Analysis` | 0.000 | 0.667 | +0.667 |
+| F1 — `Guide` | 0.167 | 0.364 | +0.197 |
+| F1 — `Opinion` | 0.556 | 0.929 | +0.373 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+I think that my model will have a higher macro accuracy for opinions. My model has a ~90% accuracy rating for opinion based articles.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
