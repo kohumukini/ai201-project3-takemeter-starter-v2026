@@ -352,23 +352,536 @@ Say so plainly — the disclosure is required, not penalised. -->
 **1.**
 > *The post:*
 >
-> *Could have been:*
+```
+If you think you can use LinkedIn automation — think twice
+
+Why LinkedIn growth tools can backfire: fingerprinting signals, risk scoring, and how to stay safe
+
+> **Disclaimer**: This is based on what I observed in my own browser session and what the client-side code appears to do. It’s not legal advice, and it’s not a claim that LinkedIn definitely “shadowbans” accounts. The goal is practical: help you understand the risk of LinkedIn tools.
+
+## If you think LinkedIn automation is invisible… it isn’t
+
+Most people assume LinkedIn catches automation by watching *behavior*:
+
+* sending too many invites
+* spamming messages
+* repeating the same patterns
+
+That’s real — but it’s not the whole story.
+
+LinkedIn also collects **environment signals**: things about your browser and setup that can hint at what you’re running. In one snapshot I captured, I saw a probing list of **6,153 Chrome extension IDs**.
+
+That number matters because your “tool stack” can become a **fingerprint**.
+
+If you’ve ever felt like:
+
+* your reach suddenly dropped
+* invites started getting throttled
+* actions randomly fail even when you “behave”
+
+…it might not be the algorithm being moody. It might be **detection + risk scoring**.
+
+
+![LinkedIn probes chrome extensions](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b71g8urv9zddfy5nhbvn.png)
+
+---
+
+## What this kind of probing means
+
+Websites can’t directly read your installed extensions.
+
+But they *can* try to load known resources from known extension IDs (e.g., `chrome-extension://…`). If something responds, the site learns: *this extension is probably present*.
+
+Do that at scale and you get a map of what kinds of tools a user might be running:
+
+* automation / outreach helpers
+* scrapers / exporters
+* “AI comment” generators
+* lead-gen toolbars
+* profile viewers
+* all the little growth plugins people forget they installed
+
+And once you’re in the world of fingerprints, enforcement stops being binary (“ban / don’t ban”). It becomes **graduated**:
+
+* softer distribution
+* lower trust
+* tighter rate limits
+* extra verification
+* delayed actions
+* periodic blocks
+
+That *feels* like shadowbanning, even when it’s just silent throttling.
+
+---
+
+## Why this backfires for people doing outreach
+
+The harsh truth: most LinkedIn “growth stacks” are built like a house of cards.
+
+You add one tool for invites.
+Then one tool for DMs.
+Then one tool for scraping.
+Then one for AI replies.
+
+Individually, each tool seems harmless.
+
+Together, they create a signature.
+
+Even if you’re not spamming, you’re walking around with a browser that screams: **“I’m automating.”**
+
+---
+
+## Safety rules (if you insist on using tools)
+
+I’m not here to moralize. People automate because they want leverage.
+
+But if you want to reduce risk, these rules help:
+
+### 1) Use a dedicated LinkedIn browser profile
+
+Keep it boring:
+
+* minimal extensions
+* no scrapers
+* no outreach plugins
+* no “helper” toolbars
+
+Treat it like a clean room.
+
+### 2) Avoid extension-based automation when possible
+
+Extensions are the easiest thing to probe.
+
+If a tool must exist, prefer setups that don’t rely on a long list of detectable browser plugins.
+
+### 3) Don’t fight throttles
+
+If LinkedIn pushes back, pushing harder is how people get restricted.
+
+Slow down, reset, and behave like a normal human.
+
+### 4) Audit what you forgot you installed
+
+Most people have a graveyard of extensions they don’t even use anymore.
+
+Those still count as signals.
+
+---
+
+## A mindset shift that helps
+
+Think of LinkedIn like a bank.
+
+They don’t just watch what you do today.
+They watch:
+
+* how risky your setup looks
+* how risky your behavior looks
+* how consistent you are over time
+
+If your goal is long-term distribution and account safety, the best strategy is boring:
+
+> Clean environment. Human pacing. Consistent quality.
+
+---
+
+## Question for you
+
+Have you ever felt “shadowbanned” on LinkedIn — reach drop, invite limits, random action failures?
+
+If yes, what tools were you using at the time?
+
+[P.S. Check Vexrail's Newsletter to know more about Monetization / Advertising in AI chat apps ](https://vexrail.com/resources/blog#:~:text=Subscribe%20to%20our%20newsletter)
+```
 >
-> *I chose, because:*
+Could have been any of my three labels
+I chose Analysis, as the article focuses on deriving a conclusion based on data collected
 
 **2.**
 > *The post:*
+```
+"Why Cloudflare is Right to Stand Against Italy's Piracy Shield
+
+## Why Cloudflare is Right to Stand Against Italy's Piracy Shield
+
+In early January 2026, Italy's communications regulator AGCOM imposed a record-breaking €14.2 million fine on Cloudflare for refusing to implement DNS-level blocking through its popular 1.1.1.1 public resolver. While the fine represents just 1% of Cloudflare's global revenue, this case has profound implications for the future of internet infrastructure, digital rights, and the balance between copyright enforcement and an open web.
+
+As a developer and infrastructure professional, I believe Cloudflare's stance is not only justified but necessary. Here's why.
+
+## Understanding the Piracy Shield System
+
+Italy's Piracy Shield platform, launched in February 2024, was designed to combat illegal streaming of live sports events, particularly Serie A football matches. The system requires internet service providers, VPN providers, and DNS resolvers to block access to reported domains and IP addresses within just **30 minutes** of notification.
+
+On paper, this sounds reasonable. In practice, it's a technical and procedural nightmare that fundamentally misunderstands how the internet works.
+
+### The Numbers Tell a Story
+
+Since its launch, Piracy Shield has blocked:
+- Over 65,000 domain names
+- Approximately 14,000 IP addresses
+
+But here's the problem: a significant portion of these blocks have caused collateral damage to legitimate services.
+
+## The Technical Reality: Why DNS-Level Blocking Is Problematic
+
+### 1. **Shared Infrastructure Creates Collateral Damage**
+
+The internet relies heavily on shared infrastructure. Multiple websites often share the same IP address through:
+- Content Delivery Networks (CDNs)
+- Shared hosting environments
+- Virtual hosting configurations
+- Cloud platforms
+
+When Piracy Shield blocks an IP address, it doesn't just block the pirate site—it can block dozens or even hundreds of legitimate services that happen to share that infrastructure.
+
+Research from the University of Twente found that Piracy Shield had inadvertently blocked **hundreds of legitimate websites**, including:
+- Google Drive (blocked for several hours in October 2024)
+- YouTube (same incident)
+- Educational websites
+- Charitable organizations
+- Small business websites
+- Payment platforms
+
+### 2. **The Scale of Cloudflare's Operations**
+
+Cloudflare's 1.1.1.1 DNS resolver handles approximately **200 billion queries daily**. It's used by millions of people worldwide who value privacy, speed, and reliability.
+
+Implementing Italy-specific filtering on this global infrastructure would:
+- Increase latency for all users globally, not just in Italy
+- Require constant monitoring and updates to blocklists
+- Create a precedent for every country to demand similar filtering
+- Transform a neutral infrastructure service into a content moderator
+
+### 3. **IP Address Recycling**
+
+Hosting providers frequently recycle IP addresses, assigning them to new customers once freed. Under Piracy Shield's automated system:
+- An IP used by a pirate site today might be assigned to a legitimate business tomorrow
+- There's no clear mechanism for how long blocks should remain active
+- The 24-hour unblocking window is insufficient for identifying and resolving false positives
+
+## The Procedural Nightmare
+
+Beyond the technical issues, Piracy Shield suffers from severe procedural deficiencies:
+
+### No Judicial Oversight
+
+The system operates as an automated platform where copyright holders (called ""flaggers"") can report domains and IPs directly to AGCOM, which then orders blocks within 30 minutes. There is:
+- No judicial review before blocking
+- No requirement to prove infringement
+- No meaningful appeal process
+- Complete lack of transparency about what gets blocked and why
+
+### The 30-Minute Rule is Unrealistic
+
+Requiring ISPs and DNS providers to implement blocks within 30 minutes assumes:
+- All reports are accurate (they're not)
+- The internet operates with clear boundaries (it doesn't)
+- Collateral damage is acceptable (it isn't)
+- Technical implementation is trivial (it's not)
+
+This timeline makes it impossible to verify claims, assess collateral damage, or implement blocks carefully.
+
+### Lack of Transparency
+
+For months, the list of blocked resources was completely secret. AGCOM denied FOIA requests repeatedly. Only through leaked data on GitHub could researchers verify the scope and accuracy of the blocks.
+
+This opacity makes it impossible for:
+- Website owners to know if they're affected
+- Users to understand why they can't access services
+- Technical operators to plan around blocks
+- Civil society to hold the system accountable
+
+## The European Commission's Concerns
+
+In June 2025, the EU Commission sent a letter to Italy's Minister of Foreign Affairs expressing serious concerns that Piracy Shield may violate:
+
+1. **The Digital Services Act (DSA)** - particularly Article 8, which requires procedural safeguards when legal content is restricted
+2. **The EU Charter of Fundamental Rights** - specifically the rights to freedom of expression and information
+
+Even Italy's own AGCOM Commissioner Elisa Giomi publicly distanced herself from the system, stating that AGCOM ""risks unintentionally limiting freedom of expression"" and engages in censorship.
+
+## Why This Matters for Developers
+
+As developers and infrastructure professionals, we should be deeply concerned about systems like Piracy Shield because:
+
+### 1. **It Sets a Dangerous Precedent**
+
+If Italy succeeds in forcing Cloudflare to implement country-specific DNS filtering, other countries will follow. We'll end up with:
+- Fragmented internet infrastructure
+- Higher latency globally
+- Increased operational complexity
+- The ""Splinternet"" - a web divided by national borders
+
+### 2. **It Misunderstands DNS**
+
+DNS is meant to be a neutral translation service - it converts domain names to IP addresses. It's not designed to be a content moderation layer. Using it as such:
+- Undermines internet architecture
+- Creates single points of failure
+- Makes the internet less resilient
+- Breaks the principle of end-to-end communication
+
+### 3. **It Doesn't Even Work**
+
+Research shows that determined pirates simply:
+- Migrate to new domains
+- Switch to IPv6 addresses
+- Use different hosting providers
+- Employ VPNs and encrypted DNS
+
+Meanwhile, legitimate services suffer the consequences of overblocking.
+
+### 4. **It Threatens Smaller Services**
+
+Cloudflare provides free cybersecurity services to millions of small websites. If forced to withdraw from Italy or implement filtering, these services would be most affected:
+- Small businesses couldn't afford enterprise alternatives
+- Independent creators would lose DDoS protection
+- Educational resources would become vulnerable
+- The democratization of web infrastructure would suffer
+
+## The Better Alternative
+
+Copyright protection is important, and piracy is a real problem. But the solution isn't to break internet infrastructure. Better approaches include:
+
+1. **Judicial review before blocking** - ensure claims are verified before action
+2. **Target the actual infringers** - use legal mechanisms against operators, not infrastructure
+3. **Improve content distribution** - make legal content more accessible and affordable
+4. **Implement safeguards** - require proof that IPs are exclusively used for infringement
+5. **Transparency and accountability** - public blocklists with appeal mechanisms
+6. **Reasonable timelines** - allow time for verification and careful implementation
+
+## Cloudflare's Response
+
+CEO Matthew Prince has been vocal in opposing this system, calling it:
+- A scheme to ""censor the Internet""
+- Operated by ""a shadowy cabal of European media elites""
+- Lacking ""judicial oversight, due process, appeal, or transparency""
+
+While the language is strong, the substance is accurate. Prince has indicated that if the fine stands, Cloudflare may:
+- Discontinue free cybersecurity services for Italy-based users
+- Remove all Cloudflare servers from Italy
+- Terminate plans to build an Italian office
+
+These aren't idle threats—they're the logical consequence of a regulatory environment that makes it impossible to operate while maintaining service integrity.
+
+## Conclusion: Standing for an Open Internet
+
+The Cloudflare vs. Italy dispute is about more than copyright enforcement. It's about whether we'll have a global, open internet or a fractured, censored one where every country can demand infrastructure providers become content police.
+
+Cloudflare is right to resist because:
+
+1. **Technical feasibility**: DNS-level blocking at global scale is technically harmful and creates unacceptable collateral damage
+2. **Procedural fairness**: No system should block content without judicial review and proper safeguards
+3. **Proportionality**: A fine exceeding double the revenue earned from an entire country is punitive, not corrective
+4. **Precedent**: Acquiescing would invite similar demands from every jurisdiction worldwide
+5. **Internet architecture**: DNS should remain neutral infrastructure, not a content moderation layer
+
+As developers, we build on the foundation of open protocols and neutral infrastructure. When regulators try to break that foundation in pursuit of short-term goals, we must stand against it—not because we support piracy, but because we understand that the cure is worse than the disease.
+
+The fight against piracy is legitimate. But it must be waged in ways that respect internet architecture, due process, and the rights of legitimate users and services. Italy's Piracy Shield fails on all counts.
+
+Cloudflare's resistance isn't about protecting pirates—it's about protecting the internet itself.
+
+---
+
+*What are your thoughts on this issue? How should we balance copyright enforcement with internet freedom? Share your perspective in the comments below.*
+
+## Further Reading
+
+- [RIPE Labs: Live-Event Blocking at Scale](https://labs.ripe.net/author/antonio-prado/live-event-blocking-at-scale-effectiveness-vs-collateral-damage-in-italys-piracy-shield/)
+- [EU Commission concerns about DSA compliance](https://www.techradar.com/vpn/vpn-privacy-security/italys-privacy-shield-may-be-breaching-eu-law-according-to-lawmakers)
+- [Matthew Prince's statement on X](https://x.com/eastdakota)"
+```
 >
-> *Could have been:*
+Could have been Analysis
 >
-> *I chose, because:*
+I chose Opinion. The data provided was to prove a previously developed conclusion.
 
 **3.**
 > *The post:*
+```
+"Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀)
+
+A few years ago, we started adapting our websites for mobile devices. Then we adapted them for accessibility. And now we may be about to adapt them once again. This time... for AI agents.
+
+To see what this could look like in practice, I built a completely serious and absolutely enterprise-ready AI CEO Simulator.
+
+
+![AI CEO Simulator app](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a4en56ttp9q6ph5kte4z.png)
+
+We'll come back to our visionary leader in a moment.
+
+_BTW, thank you all for the amazing discussion under my previous article. We somehow managed to generate approximately one billion comments 🩷 Many of them were probably smarter than the article itself. The sensible thing to do would be to write a follow-up post summarizing everything._
+
+_But honestly, I needed a break from that topic before I exploded._
+
+_Sometimes I just have to write something technical, otherwise I'll suffocate. Fortunately, nobody pays me for these articles, so I can do whatever I want 😁 We'll come back to AI in software development another time._
+
+## What Is webMCP? 🤖
+
+For now, let's talk about webMCP.
+
+Google is currently experimenting with webMCP support in Chrome, an approach designed to make it easier for AI agents to interact with websites.
+
+The problem it tries to solve is actually quite simple.
+
+Today, when an agent wants to use a website, it has to inspect the page, figure out which elements are important, click around, analyze the results, and repeat this process over and over again. It works, but it's slow, expensive, and not always reliable.
+
+webMCP allows websites to expose structured information about available actions, so agents can understand what they can do without endlessly scraping the page and guessing.
+
+## Time for a Completely Serious Business Simulation 🚀
+
+But enough theory.
+
+Let's build something completely serious and enterprise-ready.
+
+@cart0ne mentioned under my previous article that AI had effectively become the CEO of his startup.
+
+So, as a responsible person, I built an AI CEO Simulator in React + TypeScript.
+
+GitHub: https://github.com/sylwia-lask/ai-ceo-webMCP
+
+Live demo: https://sylwia-lask.github.io/ai-ceo-webMCP/
+
+## How To Enable webMCP
+
+Before you immediately rush to implement webMCP in your production application, a small disclaimer.
+
+For now, this is still experimental technology. It currently works only in Chrome Canary, Chrome Beta, or Chrome with the appropriate experimental flag enabled.
+
+To enable it:
+
+plaintext
+1. Open `chrome://flags`
+2. Search for ""MCP""
+3. Enable the experimental MCP-related features
+4. Restart Chrome
+
+
+If you'd rather not play with experimental browser flags, that's fine. You can simply look at the screenshots below.
+
+Or click around the application yourself, because everything still works perfectly as a normal website.
+
+That's actually one of the things I like most about this approach. WebMCP is just an enhancement for agents, much like accessibility features are enhancements for users relying on screen readers. Nothing breaks, nothing changes for regular users.
+
+The application simply becomes easier to understand for a different kind of visitor.
+
+
+![webMCP AI CEO simulator](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eu8din4qcrsi4jg4ajfa.png)
+
+## Two Ways To Use webMCP
+
+There are currently two main ways of exposing information through webMCP.
+
+### Option 1: Declarative API / HTML annotations
+
+The first approach is adding metadata directly to HTML elements:
+
+html
+<form
+  mcp-name=""createSupportTicket""
+  mcp-description=""Create a new customer support ticket"">
+
+
+This allows agents to understand the purpose of UI elements without relying entirely on visual interpretation.
+
+### Option 2: Imperative API / JavaScript tools
+
+The second approach is exposing MCP tools directly from your application code.
+
+That's the approach I used in my demo:
+
+typescript
+registerTool({
+  name: 'hire_employee',
+  description: 'Hire a new employee'
+});
+
+registerTool({
+  name: 'fire_employee',
+  description: 'Fire an employee'
+});
+
+
+In my application, these tools correspond directly to actions available through buttons on the page.
+
+For example, I expose tools such as:
+
+typescript
+hireDevelopers()
+fireDevelopers()
+adoptAI()
+rewriteInRust()
+pivotToAgents()
+fixProductionBugs()
+
+
+In other words: completely normal startup management.
+
+## Connecting an AI Agent
+
+So what happens when we connect an actual AI agent?
+
+Instead of building my own agent, I used the WebMCP – Model Context Protocol Inspector extension. You can connect a Gemini API key and immediately start experimenting. There's even a free token allowance. Small, but still enough to make some questionable strategic decisions 😅
+
+As with most LLM-powered systems, everything starts with a prompt.
+
+## Scenario #1: The LinkedIn CEO 😎
+
+Let's see how our CEO performs when given the following instruction:
+
+> Act like a CEO who just read three articles about AI on LinkedIn.
+
+
+![webMCP AI CEO simulator - prompt by crazy CEO](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/26z1ebiwykqx7bhsh6ni.png)
+
+As you can see, the agent selected the appropriate tools and immediately got to work.
+
+
+![webMCP AI CEO simulator - prompt by crazy CEO, outcome](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/38e9xugq8sm8ik5l0aq0.png)
+
+The company's employees may have started updating their LinkedIn profiles in panic, but at least the hype level reached previously unimaginable heights.
+
+
+![webMCP AI CEO simulator - prompt by crazy CEO, outcome 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z2hb1wfwp116i3wn9wct.png)
+
+## Scenario #2: Rebuilding Employee Trust ❤️
+
+Now let's try something a little more challenging:
+
+> I want to rebuild my employees' trust while simultaneously developing the product.
+
+
+![webMCP AI CEO simulator - prompt by good CEO](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6rvehpl1jab3mg9t1hjx.png)
+
+This time our agentic CEO made several surprisingly clever moves and managed to guide the company back toward sustainable growth.
+
+
+![webMCP AI CEO simulator - prompt by good CEO - outcome](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzxu3xhcey37mcfc2v4k.png)
+
+## So... Is This The Future?
+
+Honestly, I had way too much fun building this.
+
+No, I don't think this is a glimpse into a future where self-healing AI agents manage the global economy while piloting commercial aircraft.
+
+But I do think webMCP solves a real problem.
+
+If AI agents are going to spend more and more time interacting with our applications, giving them a structured way to understand those applications makes a lot more sense than forcing them to endlessly scrape HTML and guess what every button does.
+
+Will webMCP become a normal part of web development?
+
+Will adapting websites for agents become as common as responsive design or accessibility?
+
+Or will this trend disappear before it ever reaches the mainstream?
+
+I'm genuinely curious what you think.
+
+If you enjoy my articles, feel free to follow me on [LinkedIn](https://www.linkedin.com/in/sylwia-laskowska-5a8467131/) as well."
+```
 >
-> *Could have been:*
+Could have been an Opinion
 >
-> *I chose, because:*
+I chose Guide, as the article was more focused on showing the user a process to create something.
 
 ---
 
@@ -376,13 +889,14 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** distilbert-base-uncased
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Settings:** 3, 2e-5, 16, 42 in that order<!-- epochs, learning rate, batch size, seed -->
 
-**Anything I changed from the defaults, and why:**
+**Anything I changed from the defaults, and why:** I changed nothing. I wanted to train the model and get a baseline given the results so that I can comparee it to changes I make in the future.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
+**Split sizes:**70/15/15, 9, 9, 13 for Analysis, Guide, and Opinion respectively 
+<!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
 of next unit's variance. -->
 
@@ -401,15 +915,15 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* After reviewing ~50 labels that claude did, I asked it to check the remaining labels it created, then to give me a list of rows that claude was not confident in and needed checking.
+- *What came back:* It came back with 10+ rows that needed verification and an ask to define `analysis`
+- *What I changed:*I adjusted a few of the labels and gave it reasoning to why the labels were changed. I also defined analysis to the model so that we could cut through some of the fluff.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked claude to go to dev.to and give me 200 articles. Then, after reviewing them, we removed and re-fetched articles that would match our labels
+- *What came back:* Claude came back with 200 articles, then another 50 or so after re-fetching
+- *What I changed:* I labeled about a third of these articles, and then asked claude to remove a few ones that I marked.
 
 **Pre-labelling disclosure:**
 
