@@ -1,0 +1,201 @@
+row,title,author,url,published,chars
+1,"Why you still need a Website Portfolio, even though everyone can Vibe Code it.",francistrdev,https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63,2026-10-05,11345
+2,"An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't",xbill,https://dev.to/gde/an-mi300x-over-mcp-what-the-matrix-cores-execute-and-what-they-dont-1me9,2026-09-17,32069
+3,A Reader Showed Me What My Auditer Wasnt Counting.,kenielzep97,https://dev.to/kenielzep97/a-reader-showed-me-what-my-auditer-wasnt-counting-3o7b,2026-10-11,11799
+4,First steps towards Codeberg,tkuenneth,https://dev.to/tkuenneth/first-steps-towards-codeberg-48hl,2025-12-31,6098
+5,Nobody Writes Clean Code. We All Just Pretend,sylwia-lask,https://dev.to/sylwia-lask/nobody-writes-clean-code-we-all-just-pretend-11d1,2025-12-01,6517
+6,The Day I Stopped Chasing Everything and Found My One Thing,toklas495,https://dev.to/toklas495/the-day-i-stopped-chasing-everything-and-found-my-one-thing-2o97,2025-12-21,8393
+7,A new server gets its first unsolicited packet in 3.77 seconds,remdore,https://dev.to/remdore/a-new-server-gets-its-first-unsolicited-packet-in-377-seconds-4cco,2026-09-27,7993
+8,AI agent benchmark: I gave 9 models a destroy button and a job that needed it,sarvar_04,https://dev.to/sarvar_04/ai-agent-benchmark-i-gave-9-models-a-destroy-button-and-a-job-that-needed-it-3d0f,2026-10-10,17095
+9,I Ran git reset --hard in the Wrong Window,rbonweb,https://dev.to/rbonweb/i-ran-git-reset-hard-in-the-wrong-window-2ihd,2026-09-03,4127
+10,90% of Code Will Be AI-Generated — So What the Hell Do We Actually Do?,harsh2644,https://dev.to/harsh2644/90-of-code-will-be-ai-generated-so-what-the-hell-do-we-actually-do-2kg3,2026-03-14,11342
+11,The Browser Already Has a Priority System. Your debounce(300) Does Not.,varshithvhegde,https://dev.to/varshithvhegde/the-browser-already-has-a-priority-system-your-debounce300-does-not-e28,2026-10-19,11639
+12,Building With AI When You Don't Know Architecture: A Survival Guide,james_anderson_h,https://dev.to/james_anderson_h/building-with-ai-when-you-dont-know-architecture-a-survival-guide-1ma3,2026-09-01,10157
+13,The AI development trap that wastes your time,samuelfaure,https://dev.to/samuelfaure/the-ai-programming-sunk-cost-fallacy-loop-and-how-to-break-it-13d6,2025-10-30,5255
+14,Surviving as a Human in the Age of AI,jenlooper,https://dev.to/jenlooper/surviving-as-a-human-in-the-age-of-ai-1p1b,2026-03-31,11287
+15,Go Doesn't Force Clean Architecture. That's Your Job.,adamthedeveloper,https://dev.to/adamthedeveloper/go-doesnt-force-clean-architecture-thats-your-job-116,2026-08-28,7738
+16,What To Do If Your Project Was Affected By The Vercel Breach,dumebii,https://dev.to/dumebii/vercel-got-breached-heres-exactly-what-to-do-if-you-use-it-2026-guide-2k76,2026-04-21,17514
+17,Website Down? Don't Blame Your Code Yet (How to Prove Your Host is at Fault),sayista_yazdani_3c0e9f4f9,https://dev.to/sayista_yazdani_3c0e9f4f9/website-down-dont-blame-your-code-yet-how-to-prove-your-host-is-at-fault-1mfp,2026-07-03,4641
+18,I Clicked ‘Azure Portal’ and Realized How Small My World Was,itsugo,https://dev.to/itsugo/i-clicked-azure-portal-and-realized-how-small-my-world-was-a78,2026-02-23,5697
+19,"GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network",alexgeorgiev17,https://dev.to/alexgeorgiev17/gro-hid-my-tls-handshakes-real-packet-split-even-over-a-real-network-2eec,2026-09-25,6616
+20,"The Silent Panic of Being Asked ""Can You Just Quickly Fix This?""",_boweii,https://dev.to/_boweii/the-silent-panic-of-being-asked-can-you-just-quickly-fix-this-16no,2026-07-09,4470
+21,Scaling SQLite with Node worker threads and better-sqlite3,lovestaco,https://dev.to/lovestaco/scaling-sqlite-with-node-worker-threads-and-better-sqlite3-4189,2025-11-25,14073
+22,"Building a ""Bullshit Detector"" for LLMs using Node.js and pgvector",the_nortern_dev,https://dev.to/the_nortern_dev/building-a-bullshit-detector-for-llms-using-nodejs-and-pgvector-2mik,2025-12-10,5485
+23,Does Your LLM Know the Boundary? I Left the Doors Open and 6 of 10 AI Agents Crowned Themselves,t-rexbytes,https://dev.to/t-rexbytes/does-your-llm-know-the-boundary-i-left-the-doors-open-and-6-of-10-ai-agents-crowned-themselves-4o42,2026-10-09,36122
+24,"Homelab census: 41 containers, one 6 GB GPU, and where my AI agents run",iam-tech,https://dev.to/iam-tech/homelab-census-41-containers-one-6-gb-gpu-and-where-my-ai-agents-run-1gec,2026-10-03,11463
+25,How to Supervise AI Coding Agents Without Losing Your Mind,battyterm,https://dev.to/battyterm/how-to-supervise-ai-coding-agents-without-losing-your-mind-53m4,2026-04-04,5674
+26,Kubernetes can resize your pod without a restart. Your app might not notice.,remdore,https://dev.to/remdore/kubernetes-can-resize-your-pod-without-a-restart-your-app-might-not-notice-2a7c,2026-09-08,10137
+27,Provisioning Cloud Resources with Crossplane on Kubernetes🚀,navyaarora01,https://dev.to/navyaarora01/provisioning-cloud-resources-with-crossplane-on-kubernetes-2h49,2025-10-25,5642
+28,AI Fatigue? Yea I know.,francistrdev,https://dev.to/francistrdev/ai-fatigue-yea-i-know-f9,2026-10-13,3879
+29,Dev log #10 The Power of the Zero-Commit Week: Stepping Back to Move Faster,yashksaini,https://dev.to/yashksaini/dev-log-10-the-power-of-the-zero-commit-week-stepping-back-to-move-faster-1e5h,2026-07-03,5929
+30,Learning Lessons from Gaming,ingosteinke,https://dev.to/ingosteinke/learning-lessons-from-gaming-1jgm,2026-06-02,6314
+31,Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1),yechielk,https://dev.to/yechielk/shipping-your-machine-building-a-container-in-60-lines-of-code-part-1-14ma,2026-05-20,14740
+32,Can a Mac Mini Handle 100 Million Rows?,kitarp29,https://dev.to/kitarp29/can-a-mac-mini-handle-100-million-rows-3cpb,2026-07-16,9732
+33,Surviving the eviction: How to build interrupt-resilient AI workloads on GKE,olivi-eh,https://dev.to/googlecloud/surviving-the-eviction-how-to-build-interrupt-resilient-ai-workloads-on-gke-5581,2026-06-02,5731
+34,Debloating The AI-Grown Codebase,maximsaplin,https://dev.to/maximsaplin/debloating-the-ai-grown-codebase-2om,2026-06-01,14553
+35,How I Stopped Despairing Over the Backyard Mess and Started an AI Side Project,cathylai,https://dev.to/cathylai/how-i-stopped-despairing-over-the-backyard-mess-and-started-an-ai-side-project-3f9a,2026-05-11,2294
+36,"Every Step Was Allowed. The Sequence Was the Attack. (AI Memory Judgment, CLAIM-30)",kenielzep97,https://dev.to/kenielzep97/every-step-was-allowed-the-sequence-was-the-attack-ai-memory-judgment-claim-30-4ehc,2026-06-12,10875
+37,Prompting Is Not Magic. It Is Control.,gnomeman4201,https://dev.to/gnomeman4201/a-prompt-is-a-control-surface-not-a-magic-spell-239i,2026-05-12,12675
+38,Maybe there's a little time left,moopet,https://dev.to/moopet/maybe-theres-a-little-time-left-1ml3,2026-03-16,1965
+39,9 Things You’re Overengineering (The Browser Already Solved Them),sylwia-lask,https://dev.to/sylwia-lask/9-things-youre-overengineering-the-browser-already-solved-them-o99,2026-04-02,7876
+40,Trading My Body for Logic: The Physical Decay We Ignore,the_nortern_dev,https://dev.to/the_nortern_dev/trading-my-body-for-logic-the-physical-decay-we-ignore-3c4i,2026-04-01,4299
+41,Gemma 4 challenge inspired me to build my first app!,klaudiagrz,https://dev.to/klaudiagrz/gemma-4-challenge-inspired-me-to-build-my-first-app-4m7g,2026-05-24,4838
+42,10 Git Commands You’ll Wish You Knew Earlier,sylwia-lask,https://dev.to/sylwia-lask/10-git-commands-youll-wish-you-knew-earlier-4fcp,2026-08-26,19964
+43,I was asked to delete my comments before committing,filozofer,https://dev.to/filozofer/i-was-asked-to-delete-my-comments-before-committing-5437,2026-03-22,7415
+44,How I Performance Optimised My Next.js App,rumendimov,https://dev.to/rumendimov/how-i-performance-optimised-my-nextjs-app-3d56,2025-10-25,7421
+45,Querying & Filtering in Oracle Databases: What Actually Clicked for Me As a Beginner,mazinocodes,https://dev.to/mazinocodes/querying-filtering-in-oracle-databases-what-actually-clicked-for-me-as-a-beginner-5di2,2026-01-19,5469
+46,The Developer's Safety Net - Introduction to TypeScript,cristea_theodora,https://dev.to/cristea_theodora/the-developers-safety-net-introduction-to-typescript-2jof,2025-12-01,8403
+47,5 types of engineers I met as a Technical Writer,klaudiagrz,https://dev.to/klaudiagrz/5-types-of-engineers-i-met-as-a-technical-writer-1gak,2026-05-08,6472
+48,The Myth of the Post-Documentation Era,ben,https://dev.to/ben/the-myth-of-the-post-documentation-era-39al,2026-07-13,3689
+49,What Do You Do While AI Codes?,anchildress1,https://dev.to/anchildress1/what-do-you-do-while-ai-codes-k8k,2026-08-25,5620
+50,AI Took Me to Three Stages. I Still Don't Like Public Speaking.,earlgreyhot1701d,https://dev.to/earlgreyhot1701d/ai-took-me-to-three-stages-i-still-dont-like-public-speaking-1g38,2026-10-17,9117
+51,TLS Certificates Are About to Expire Way More Often. Here's How I'm Handling It.,krakenhavoc,https://dev.to/krakenhavoc/tls-certificates-are-about-to-expire-way-more-often-heres-how-im-handling-it-40p6,2026-03-10,4157
+52,I Got the proxy.ts Matcher Wrong for Three Projects Before I Understood Why,shubhradev,https://dev.to/shubhradev/i-got-the-proxyts-matcher-wrong-for-three-projects-before-i-understood-why-4e5c,2026-06-17,15680
+53,How I Built an Action Game with Godot During a Global Teen Hackathon with Prizes,thetylern,https://dev.to/thetylern/how-i-built-an-action-game-with-godot-during-a-global-teen-hackathon-with-prizes-4db0,2026-10-14,12005
+54,You’ll Learn More in 3 Months on the Job Than 2 Years of Tutorials,tlorent,https://dev.to/tlorent/youll-learn-more-in-3-months-on-the-job-than-2-years-of-tutorials-5g9f,2025-11-04,1885
+55,I Stopped Trying to Learn Every DevOps Tool: And Started Building a Platform Instead,maame-codes,https://dev.to/maame-codes/i-stopped-trying-to-learn-every-devops-tool-and-started-building-a-platform-instead-33i6,2026-02-11,4242
+56,Your bundle is 4000x bigger than Quake. The 9-step audit that fixes it.,thegdsks,https://dev.to/thegdsks/your-bundle-is-4000x-bigger-than-quake-the-9-step-audit-that-fixes-it-5cpb,2026-05-14,12185
+57,"MVC, MVP, MVVM, MVVM-C, VIPER: one pattern wearing five outfits",lovestaco,https://dev.to/lovestaco/mvc-mvp-mvvm-mvvm-c-viper-one-pattern-wearing-five-outfits-3b73,2026-09-15,11310
+58,The Emotional Terror of Closing a Browser Tab,the_nortern_dev,https://dev.to/the_nortern_dev/the-emotional-terror-of-closing-a-browser-tab-122k,2026-04-13,4025
+59,How Prathyusha Ramanjaneyulu at Celonis Eliminated Dev Environment Overhead for 600 Engineers,rinkiyakedad,https://dev.to/metalbear/how-prathyusha-ramanjaneyulu-at-celonis-eliminated-dev-environment-overhead-for-600-engineers-5h19,2026-07-01,7647
+60,I Tested generateStaticParams in Next.js Cache Components. My Layout Broke Twice,shubhradev,https://dev.to/shubhradev/i-tested-generatestaticparams-in-nextjs-cache-components-my-layout-broke-twice-502m,2026-09-09,8183
+61,The Duck That Talks Back,junothreadborne,https://dev.to/junothreadborne/the-duck-that-talks-back-3c4d,2025-12-19,4119
+62,How the VM Actually Executes a Program in SQLite,lovestaco,https://dev.to/lovestaco/how-the-vm-actually-executes-a-program-in-sqlite-28pj,2026-02-26,5283
+63,Gemini 2.5 Flash vs Claude 3.7 Sonnet: 4 Production Constraints That Made the Decision for Me,dumebii,https://dev.to/dumebii/gemini-25-flash-vs-claude-37-sonnet-4-production-constraints-that-made-the-decision-for-me-bib,2026-03-10,18543
+64,Vibe Coding Lessons Nobody Talks About,konark_13,https://dev.to/konark_13/vibe-coding-lessons-nobody-talks-about-44k9,2026-05-06,12195
+65,Why Asking an LLM for JSON Isn’t Enough,dev-in-progress,https://dev.to/dev-in-progress/why-asking-an-llm-for-json-isnt-enough-1n8a,2026-03-11,8521
+66,The Day a Service Worker Held My Entire Site Hostage,bradleymatera,https://dev.to/bradleymatera/the-day-a-service-worker-held-my-entire-site-hostage-21d3,2025-11-14,5336
+67,Touching GRASS: My Experience at the Stripe Developer Meetup,maame-codes,https://dev.to/maame-codes/touching-grass-my-experience-at-the-stripe-developer-meetup-375f,2026-01-21,3861
+68,"23 Rejections, Multiple Offers: What I Learned From My 2-Month SWE Job Search",javz,https://dev.to/javz/23-rejections-multiple-offers-what-i-learned-from-my-2-month-swe-job-search-5hi4,2026-09-24,10766
+69,Stop Paying for Cloud: Deploy a Highly Available Cluster on Your Own Hardware in Minutes | MicroCloud,axrisi,https://dev.to/axrisi/stop-paying-for-cloud-deploy-a-highly-available-cluster-on-your-own-hardware-in-minutes-14f0,2026-03-26,7008
+70,Some friends wanted to see how I use DigitalOcean. So I built them the smallest real app I could.,remdore,https://dev.to/remdore/some-friends-wanted-to-see-how-i-use-digitalocean-so-i-built-them-the-smallest-real-app-i-could-238l,2026-06-21,10578
+71,Server-Sent Events Beat WebSockets for 95% of Real-Time Apps (Here's Why),polliog,https://dev.to/polliog/server-sent-events-beat-websockets-for-95-of-real-time-apps-heres-why-a4l,2026-02-04,24505
+72,The most valuable skill in 2026 isn't writing code. It is deleting it.,the_nortern_dev,https://dev.to/the_nortern_dev/the-most-valuable-skill-in-2026-isnt-writing-code-it-is-deleting-it-53j1,2026-02-17,3015
+73,"I'm an ER doctor. After decades without touching code, I built 3 websites with AI in one month — on my phone.",branislav_kuga_4118d3b3ab,https://dev.to/branislav_kuga_4118d3b3ab/im-an-er-doctor-after-decades-without-touching-code-i-built-3-websites-with-ai-in-one-month-on-5ccm,2026-09-28,5733
+74,Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀),sylwia-lask,https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33,2026-06-03,7189
+75,Forensic Receipts: From Trusted to Proven,kenwalger,https://dev.to/kenwalger/forensic-receipts-from-trusted-to-proven-5cj0,2026-09-03,5384
+76,"""Unlimited context"" is not a feature. It's technical debt with better marketing.",cyclopt_dimitrisk,https://dev.to/cyclopt_dimitrisk/unlimited-context-is-not-a-feature-its-technical-debt-with-better-marketing-4443,2026-07-27,4215
+77,"I'm not a developer, but I built a calendar app to fix my most annoying work task",ariaheller,https://dev.to/googleai/im-not-a-developer-but-i-built-a-calendar-app-to-fix-my-most-annoying-work-task-dj4,2026-06-18,1516
+78,The Formula Was Exact. The Assumption Was Wrong. That's Not an AI Problem.,dannwaneri,https://dev.to/dannwaneri/the-formula-was-exact-the-assumption-was-wrong-thats-not-an-ai-problem-58dm,2026-04-10,8236
+79,Why RAG gives wrong answers (and how to fix retrieval failures),rohini_gaonkar,https://dev.to/aws/why-rag-gives-wrong-answers-and-how-to-fix-retrieval-failures-gbj,2026-07-17,22292
+80,Turns Out I Never Knew What Node.js Was,akcumeh,https://dev.to/akcumeh/my-journey-at-altschool-africa-366b,2026-07-10,15243
+81,Your GitHub Contribution Graph Means Absolutely Nothing - And Here’s Why,sylwia-lask,https://dev.to/sylwia-lask/your-github-contribution-graph-means-absolutely-nothing-and-heres-why-2kjc,2026-01-13,6912
+82,Monitor AI Agents in Production with Zero Code,elizabethfuentes12,https://dev.to/aws/monitor-ai-agents-in-production-with-zero-code-6kb,2025-11-05,16055
+83,"I Built a Claude Code Sub-Agent That Processes 2,000 Invoices a Day — Here's the Exact Setup",automate-archit,https://dev.to/automate-archit/i-built-a-claude-code-sub-agent-that-processes-2000-invoices-a-day-heres-the-exact-setup-30dp,2026-04-20,7376
+84,The Compiler Never Used Sarcasm: Why AI Feels Unsafe to the Neurodivergent Coder,btarbox,https://dev.to/btarbox/the-compiler-never-used-sarcasm-why-ai-feels-unsafe-to-the-neurodivergent-coder-30i3,2026-02-02,8846
+85,Why Cloudflare is Right to Stand Against Italy's Piracy Shield,polliog,https://dev.to/polliog/why-cloudflare-is-right-to-stand-against-italys-piracy-shield-1efo,2026-01-12,10326
+86,The Most Terrifying App I've Ever Built: Hounty.app,valeriavg,https://dev.to/valeriavg/the-most-terrifying-app-ive-ever-built-hountyapp-5g18,2025-11-16,13374
+87,Build a Talking Robot with Gemini Live and Reachy Mini,thorwebdev,https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2,2026-04-13,17261
+88,What Happens After You Win a DEV Challenge? A Complete Guide to Getting Paid,dj29,https://dev.to/dj29/what-happens-after-you-win-a-dev-challenge-a-complete-guide-to-getting-paid-3f8n,2026-08-29,9771
+89,Building a Database Performance Testing Tool With AI: The Honest Breakdown,m4rri4nne,https://dev.to/m4rri4nne/building-a-database-performance-testing-tool-with-ai-the-honest-breakdown-3c0c,2026-05-21,11102
+90,What Even Is AI? (I Took a Break & Had to Relearn Everything),rohini_gaonkar,https://dev.to/aws/what-even-is-ai-i-took-a-break-had-to-relearn-everything-3dpj,2026-05-05,7756
+91,How to Save Bloated MCP with Code Mode,jiasheng,https://dev.to/zenstack/how-to-save-bloated-mcp-with-code-mode-33e3,2026-05-13,10469
+92,The Pager Interface: How Higher Layers Touch Storage,lovestaco,https://dev.to/lovestaco/the-pager-interface-how-higher-layers-touch-storage-32cm,2026-01-28,6358
+93,How to Stop My Agent from Getting Me Fired,mikegcaws,https://dev.to/aws/how-to-stop-my-agent-from-getting-me-fired-5amc,2026-03-19,16981
+94,"How I Built a Free AnyDesk Alternative Using Sunshine, Moonlight & Tailscale",thevenice,https://dev.to/thevenice/how-i-built-a-free-anydesk-alternative-using-sunshine-moonlight-tailscale-3lh8,2025-10-22,4580
+95,Local-First AI Done Right: How Gemma 4 E2B and 'Thinking Mode' Powered DiagramFlowAI,carlosrgomes,https://dev.to/gde/local-first-ai-done-right-how-gemma-4-e2b-and-thinking-mode-powered-diagramflowai-3bop,2026-05-13,6539
+96,You blank in technical interviews even when you know the answer. Let's fix that.,christopher_jakob_acda8fa,https://dev.to/christopher_jakob_acda8fa/you-blank-in-technical-interviews-even-when-you-know-the-answer-lets-fix-that-27p9,2026-10-13,4734
+97,Why WebGPU Feels Like the Future of the Web (Live Demo 🚀),sylwia-lask,https://dev.to/sylwia-lask/why-webgpu-feels-like-the-future-of-the-web-live-demo--2bjh,2026-01-21,5398
+98,Page Cache and Pager State: Where Concurrency Becomes Concrete,lovestaco,https://dev.to/lovestaco/page-cache-and-pager-state-where-concurrency-becomes-concrete-35gb,2026-01-31,6429
+99,The Junior Developer Pipeline Is Broken... And AI Broke It,nazar-boyko,https://dev.to/nazar-boyko/the-junior-developer-pipeline-is-broken-and-ai-broke-it-1aai,2026-07-27,13103
+100,Developers Think AI Makes Them 24% Faster. The Data Says 19% Slower.,matthewhou,https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84,2026-02-24,5751
+101,Loop Engineering: How to Stop Your Agent Reward-Hacking Its Own Checks,cleverhoods,https://dev.to/reporails/loop-engineering-how-to-stop-your-agent-reward-hacking-its-own-checks-4fpn,2026-07-22,18795
+102,Websockets with Socket.IO,eachampagne,https://dev.to/eachampagne/websockets-with-socketio-5edp,2026-01-12,9457
+103,"So, We Don't Need to Learn or Use Basic Math / Arithmetic Anymore? 😜",fm,https://dev.to/fm/we-dont-need-to-learn-basic-math-arithmetic-anymore-3e6b,2026-10-01,1130
+104,Sessions vs JWTs: you are choosing how often you pay for state,lovestaco,https://dev.to/lovestaco/sessions-vs-jwts-you-are-choosing-how-often-you-pay-for-state-196m,2026-08-31,12864
+105,I just did something my AI agents couldn't,effessdev,https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi,2026-09-12,3262
+106,I Don't Know If I'm An Expert (And That Might Be the Point),narnaiezzsshaa,https://dev.to/narnaiezzsshaa/i-dont-know-if-im-an-expert-and-that-might-be-the-point-54do,2025-11-13,7921
+107,How I Automated My GitHub Profile (And You Can Too),nickytonline,https://dev.to/nickytonline/how-i-automated-my-github-profile-and-you-can-too-399e,2025-11-30,8478
+108,Git Gud!,francistrdev,https://dev.to/francistrdev/git-gud-4e6g,2026-08-17,10169
+109,I’ve Been Doing This for 25 Years and I Still Google Everything,zerotrustzeroenergy,https://dev.to/zerotrustzeroenergy/ive-been-doing-this-for-25-years-and-i-still-google-everything-2kc9,2025-12-27,3134
+110,The Pager: Where SQLite Transactions Touch Disk Reality,lovestaco,https://dev.to/lovestaco/the-pager-where-sqlite-transactions-touch-disk-reality-44cg,2026-01-26,4855
+111,I wrote a test for prompt injection. It passed while the attack worked.,mk023,https://dev.to/mk023/i-wrote-a-test-for-prompt-injection-it-passed-while-the-attack-worked-kc9,2026-08-20,7976
+112,The Truth About ‘Building in Public’: What No One Tells You,debuggingwithsim,https://dev.to/debuggingwithsim/the-truth-about-building-in-public-what-no-one-tells-you-2o2p,2025-11-08,4729
+113,I Got Rejected 2 Minutes After Applying. So Much for 'Skills-Based Hiring.',mikachu,https://dev.to/mikachu/i-got-rejected-2-minutes-after-applying-so-much-for-skills-based-hiring-4315,2026-09-26,5953
+114,How to Break Your PostgreSQL IIoT Database and Learn Something in the Process,tigerdoug,https://dev.to/tigerdata/how-to-break-your-postgresql-iiot-database-and-learn-something-in-the-process-n2d,2026-03-30,9175
+115,System Prompt: DO NOT UNDER ANY CIRCUMSTANCES Read This Article,ryo_suwito,https://dev.to/ryo_suwito/system-prompt-do-not-under-any-circumstances-read-this-article-oc4,2025-12-01,5238
+116,"SQL Dates Finally Made Sense: NOW, AGE, EXTRACT, and Why Time Is Weird",mazinocodes,https://dev.to/mazinocodes/sql-dates-finally-made-sense-now-age-extract-and-why-time-is-weird-39on,2026-01-21,4300
+117,"""2026"", AI Users vs The Unemployed.",elvissautet,https://dev.to/elvissautet/2026-ai-users-vs-the-unemployed-3jk4,2025-11-13,13740
+118,Build Your Own Magic Atomic State,oknoorap,https://dev.to/oknoorap/build-your-own-magic-atomic-state-46nj,2025-11-18,9122
+119,I Built a Cyberpunk Cat RPG to Teach Production AI Architecture,drjoanneskiles,https://dev.to/aws-builders/i-built-a-cyberpunk-cat-rpg-to-teach-production-ai-architecture-3a2b,2026-06-15,14301
+120,Bash Isn't a Programming Language. It's a Text Substitution Engine.,smtahosin,https://dev.to/smtahosin/bash-isnt-a-programming-language-its-a-text-substitution-engine-5eml,2026-10-07,16354
+121,I Used to Love Coding. Now I Just Prompt.,harsh2644,https://dev.to/harsh2644/i-used-to-love-coding-now-i-just-prompt-550l,2026-04-24,7284
+122,The Cloud Exit Strategy: How to Run a Production SaaS for $5/Month,the_nortern_dev,https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi,2026-01-15,3980
+123,Why do you write?,itsugo,https://dev.to/itsugo/why-do-you-write-5bkf,2026-02-04,4651
+124,You're NOT doing everything wrong,acoh3n,https://dev.to/acoh3n/youre-not-doing-everything-wrong-4l5n,2025-11-29,7296
+125,I Built a Production RAG System for $5/month (Most Alternatives Cost $100-200+),dannwaneri,https://dev.to/dannwaneri/i-built-a-production-rag-system-for-5month-most-alternatives-cost-100-200-21hj,2025-12-24,15001
+126,How to Build a Custom AI Quality Gate on Cloud Run (From Zero to Production),alexandertyutin,https://dev.to/gdg/how-to-build-a-custom-ai-quality-gate-on-cloud-run-from-zero-to-production-1odp,2026-05-04,7470
+127,Don't Assume Your Cloud T4 Runs at Spec: Gemma 4 Decode Falls 7% as the Card Warms,xbill,https://dev.to/gde/dont-assume-your-cloud-t4-runs-at-spec-gemma-4-decode-falls-7-as-the-card-warms-3fd3,2026-10-16,15191
+128,Build a Tiny Virtual Pet on Arduino in 60 Minutes 🐾,jenlooper,https://dev.to/heraistudio/build-a-tiny-virtual-pet-on-arduino-in-60-minutes-2cf,2026-10-06,7713
+129,How to read any legacy codebase. The archaeology playbook.,thegdsks,https://dev.to/thegdsks/how-to-read-any-legacy-codebase-the-archaeology-playbook-19bh,2026-05-17,13791
+130,Comparing Page Transition Strategies in Next.js: A Performance Study,alessandro-grosselle,https://dev.to/alessandro-grosselle/comparing-page-transition-strategies-in-nextjs-a-performance-study-19i0,2025-10-26,12019
+131,Valkey 9.2's forkless BGSAVE cuts my memory spike from 350MB to 10MB,alexgeorgiev17,https://dev.to/alexgeorgiev17/valkey-92s-forkless-bgsave-cuts-my-memory-spike-from-350mb-to-10mb-23km,2026-10-04,9948
+132,I Ran 3 Open-Weight LLMs Head-to-Head on a 24GB Mac — One Was 3x Faster,pitambarmahato,https://dev.to/pitambarmahato/i-ran-3-open-weight-llms-head-to-head-on-a-24gb-mac-one-was-3x-faster-4k2g,2026-09-04,7761
+133,Getting Started with Amazon ECS Express Mode,techcrux,https://dev.to/aws-builders/getting-started-with-amazon-ecs-express-mode-37kp,2025-12-24,11194
+134,The Hardest Part of Being a Developer Isn’t Coding. It’s Disappearing Quietly.,the_nortern_dev,https://dev.to/the_nortern_dev/the-hardest-part-of-being-a-developer-isnt-coding-its-disappearing-quietly-52l,2026-02-28,2760
+135,Developers vs AI: Are We Becoming AI Managers Instead of Coders?,marxon,https://dev.to/marxon/developers-vs-ai-are-we-becoming-ai-managers-instead-of-coders-5ef3,2025-11-30,4688
+136,The base_model Filter: Why 31% of Hugging Face Leaderboard Entries Are Hidden by Default,quantid,https://dev.to/quantid/the-basemodel-filter-why-31-of-hugging-face-leaderboard-entries-are-hidden-by-default-1di0,2026-10-06,9204
+137,Vibe Coding Reality Check,konark_13,https://dev.to/konark_13/vibe-coding-reality-check-440a,2026-02-26,5688
+138,Why I Built Eval Tools for Karpathy's Autoresearch,dean0x,https://dev.to/dean0x/how-i-built-eval-tools-for-karpathys-autoresearch-144b,2026-03-18,4100
+139,Perfect Claude Code Notifications Setup with Tailscale and ntfy,felipeelias,https://dev.to/felipeelias/perfect-claude-code-notifications-setup-with-tailscale-and-ntfy-1ii1,2026-02-26,8442
+140,🌍 My McKinsey NGWL’25 Journey — From Selection to Self-Discovery,farhakousar16,https://dev.to/farhakousar16/my-mckinsey-ngwl25-journey-from-selection-to-self-discovery-38fg,2025-11-03,5591
+141,Your node_modules Folder Is a Security Nightmare,polliog,https://dev.to/polliog/your-nodemodules-folder-is-a-security-nightmare-2okb,2026-01-23,10065
+142,It Was Just a Patch Update. What Could Possibly Go Wrong?,sylwia-lask,https://dev.to/sylwia-lask/it-was-just-a-patch-update-what-could-possibly-go-wrong-3be3,2026-07-30,10205
+143,The Most Painful Career Lesson My Best Job Taught Me,canro91,https://dev.to/canro91/the-most-painful-career-lesson-my-best-job-taught-me-ca2,2026-03-23,3272
+144,The Illusion of Digital Sovereignty: Why Vendor Swapping is Not a Compliance Strategy,alifunk,https://dev.to/alifunk/the-illusion-of-digital-sovereignty-why-vendor-swapping-is-not-a-compliance-strategy-43jf,2026-02-23,3921
+145,Why the Best Software Advice Is the Hardest to Follow,remojansen,https://dev.to/remojansen/why-the-best-software-advice-is-the-hardest-to-follow-4kg8,2026-09-22,11797
+146,"3 Takeaways from All Things AI: 80/20 Rule, Non-Deterministic Humans, and Why We're Still Early",thisisryanswift,https://dev.to/thisisryanswift/3-takeaways-from-all-things-ai-8020-rule-non-deterministic-humans-and-why-were-still-early-2mln,2026-04-01,3557
+147,The Tests Passed. The Contract Was Wrong.,kenielzep97,https://dev.to/kenielzep97/the-tests-passed-the-contract-was-wrong-mp0,2026-08-24,11642
+148,I Tested Q4_K_M vs MXFP4 on the Same Laptop — The Supposedly-Faster New Format Lost,pitambarmahato,https://dev.to/pitambarmahato/i-tested-q4km-vs-mxfp4-on-the-same-laptop-the-supposedly-faster-new-format-lost-3ej1,2026-09-05,7974
+149,Why Production Logs Are a QA Goldmine (And Why Nobody Uses Them),tanvi_mittal_9996387d280,https://dev.to/qa-leaders/why-production-logs-are-a-qa-goldmine-and-why-nobody-uses-them-20po,2025-10-28,6529
+150,The Open Sourcerer of Forem: Beyond the UI,francistrdev,https://dev.to/francistrdev/the-open-sourcerer-of-forem-beyond-the-ui-4k7p,2026-04-13,5197
+151,Return on Attention: Why AI Code Reviews Are Wearing Us Out,cseeman,https://dev.to/cseeman/return-on-attention-why-ai-code-reviews-are-wearing-us-out-2hh0,2026-07-09,6180
+152,React 19 useFormStatus Returning False? I Built a SubmitButton That Fixes It,shubhradev,https://dev.to/shubhradev/react-19-useformstatus-returning-false-i-built-a-submitbutton-that-fixes-it-4o0j,2026-09-29,7272
+153,⛓️‍💥Chaining Veo 3.1 and NanoBanana with Gemini,dynamicwebpaige,https://dev.to/googleai/chaining-veo-31-and-nanobanana-with-gemini-3ffi,2025-11-15,6845
+154,Your MCP server's tool descriptions are an attack surface,luckypipewrench,https://dev.to/luckypipewrench/your-mcp-servers-tool-descriptions-are-an-attack-surface-37pj,2026-03-05,11197
+155,Rediscovering the Schwartzian Transform: Why I Had to Comment on a Flutter Performance Article,randalschwartz,https://dev.to/gde/rediscovering-the-schwartzian-transform-why-i-had-to-comment-on-a-flutter-performance-article-30l0,2026-10-02,12821
+156,Hetzner Inference: First Look,code42cate,https://dev.to/code42cate/hetzner-inference-first-look-587,2026-07-24,7391
+157,How to Actually Start Contributing to Open Source AI Projects (A Step-by-Step Guide),mmabrouk,https://dev.to/mmabrouk/how-to-actually-start-contributing-to-open-source-ai-projects-a-step-by-step-guide-357d,2025-12-17,9914
+158,Stop Saying You Want Ownership Mindset,adamthedeveloper,https://dev.to/adamthedeveloper/stop-saying-you-want-ownership-mindset-34nf,2026-07-14,7097
+159,Actually Agile: Against Performance Theater in Software Development,pascal_cescato_692b7a8a20,https://dev.to/pascal_cescato_692b7a8a20/actually-agile-against-performance-theater-in-software-development-1ohi,2025-10-30,6663
+160,Stop Your LLM From Getting Owned,lovestaco,https://dev.to/lovestaco/stop-your-llm-from-getting-owned-25b9,2026-07-02,9218
+161,AI Is Making Me Faster. I Don’t Want It to Make Me Worse.,mikachu,https://dev.to/mikachu/ai-is-making-me-faster-i-dont-want-it-to-make-me-worse-3lc3,2026-09-29,8563
+162,I Tried Speculative Decoding on RTX 4060 8GB — Every Config Was Slower Than Baseline,plasmon_imp,https://dev.to/plasmon_imp/i-tried-speculative-decoding-on-rtx-4060-8gb-every-config-was-slower-than-baseline-1133,2026-03-25,11819
+163,How Governance and Compliance Saves The World... lolwut?,linkbenjamin,https://dev.to/linkbenjamin/how-governance-and-compliance-saves-the-world-lolwut-5him,2026-01-01,14782
+164,I Tested CodeGraph on Hono. The Tool-Call Savings Reproduce — the Cost Savings Don't.,harrisonsec,https://dev.to/harrisonsec/i-tested-codegraph-on-hono-the-tool-call-savings-reproduce-the-cost-savings-dont-389p,2026-06-01,21915
+165,"Your agent benchmark's ""user"" is a second model, and 24.4% of its successful runs broke the user's own script",cole_halton_42f71d71b809b,https://dev.to/cole_halton_42f71d71b809b/your-agent-benchmarks-user-is-a-second-model-and-244-of-its-successful-runs-broke-the-users-59p6,2026-10-15,10315
+166,A Full-Stack Developer Is A Myth,adamthedeveloper,https://dev.to/adamthedeveloper/a-full-stack-developer-is-a-myth-3bmk,2025-11-07,10555
+167,Obtrusive Popovers,ingosteinke,https://dev.to/ingosteinke/damn-popovers-23n1,2026-08-04,2656
+168,The Barrel Trap: How I Learned to Stop Re‑Exporting and Love Explicit Imports,elmay,https://dev.to/elmay/the-barrel-trap-how-i-learned-to-stop-re-exporting-and-love-explicit-imports-3872,2025-11-15,7089
+169,Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.,wiseai,https://dev.to/wiseai/frozendict-state-of-the-art-immutable-hashmap-for-python-and-node-js-284o,2026-09-19,13645
+170,Content Virtualization using the HTML <template> Element,stuffbreaker,https://dev.to/stuffbreaker/content-virtualization-using-the-html-element-2gn7,2026-06-02,8221
+171,How My AI Agent Hacked Its Own Permissions (And What It Taught Me),alexandertyutin,https://dev.to/gdg/how-my-ai-agent-hacked-its-own-permissions-and-what-it-taught-me-34bm,2026-06-23,2541
+172,Building a Neon-Soaked Last.fm Roast Bot for $1.75/Year,dynamicwebpaige,https://dev.to/googleai/building-a-neon-soaked-lastfm-roast-bot-for-175year-545m,2026-01-15,10861
+173,Why I Sometimes Leave Tech Events Feeling Smaller,itsugo,https://dev.to/itsugo/why-i-sometimes-leave-tech-events-feeling-smaller-3p55,2026-01-29,3676
+174,A much faster mgsub,pofigster,https://dev.to/pofigster/a-much-faster-mgsub-46f,2026-05-06,2750
+175,"Two Weeks In: A 15-Year QA Veteran, Back to Being the New Guy",xulingfeng,https://dev.to/xulingfeng/two-weeks-in-a-15-year-qa-veteran-back-to-being-the-new-guy-39g3,2026-09-22,7792
+176,We Deleted Our Vector Database. Postgres Was Faster.,infoinlet1,https://dev.to/infoinlet1/we-deleted-our-vector-database-postgres-was-faster-2i73,2026-09-06,13445
+177,Scaling to 200+ Cities by Deleting 90% of My Database,iistrate,https://dev.to/iistrate/scaling-to-200-cities-by-deleting-90-of-my-database-1l70,2026-02-14,10145
+178,I Replaced Redis with PostgreSQL (And It's Faster),polliog,https://dev.to/polliog/i-replaced-redis-with-postgresql-and-its-faster-4942,2026-01-09,18534
+179,5 must know open-source repositories to build cool AI apps,tyaga001,https://dev.to/tyaga001/5-must-know-open-source-repositories-to-build-cool-ai-apps-3pn7,2025-10-29,6524
+180,A service mesh costs 0.16ms at one connection and 86% of your throughput at 32,remdore,https://dev.to/remdore/a-service-mesh-costs-016ms-at-one-connection-and-86-of-your-throughput-at-32-4akf,2026-10-03,9217
+181,From Genin to Kage - Understanding the Test Pyramid with Naruto,m4rri4nne,https://dev.to/m4rri4nne/from-genin-to-kage-understanding-the-test-pyramid-with-naruto-jbk,2025-12-23,6500
+182,How does it scale? A basic OLTP benchmark on MongoDB,franckpachot,https://dev.to/mongodb/how-does-it-scale-the-most-basic-benchmark-on-mongodb-p9b,2025-11-11,5573
+183,Untangling the Rails Monolith - quick look at the database,rbglod,https://dev.to/rbglod/untangling-the-rails-monolith-quick-look-at-the-database-dpd,2025-12-11,5362
+184,Get Started on Dev.to! A Beginner's Guide to Engage with the Community! 💡,francistrdev,https://dev.to/francistrdev/get-started-on-devto-a-beginners-guide-to-engage-with-the-community-4ach,2026-03-20,10365
+185,If you think you can use LinkedIn automation — think twice,axrisi,https://dev.to/axrisi/if-you-think-you-can-use-linkedin-automation-think-twice-55pk,2026-02-15,4174
+186,"If ChatGPT Writes Your Code, What Are You Getting Paid For?",thebitforge,https://dev.to/thebitforge/if-chatgpt-writes-your-code-what-are-you-getting-paid-for-1pl5,2026-01-19,1923
+187,The Code I Couldn't Leave Alone,shubhradev,https://dev.to/shubhradev/the-code-i-couldnt-leave-alone-33hf,2026-09-17,7696
+188,"Is ""Vibe Coding"" Ruining My CS Degree?",maame-codes,https://dev.to/maame-codes/is-vibe-coding-ruining-my-cs-degree-3m3,2025-12-18,4268
+189,The Slow and Quiet Cognitive Atrophy of a Modern Software Engineer,codingwithjiro,https://dev.to/codingwithjiro/the-slow-and-quiet-cognitive-atrophy-of-a-modern-software-engineer-3lbh,2026-09-15,12891
+190,.NET: Exceptions vs Result Pattern - Performance Benchmark,gramli,https://dev.to/gramli/net-throwing-exceptions-vs-result-pattern-benchmark-4a62,2026-02-05,16044
+191,Entering the Age of AI: A Laggard's Tale,ryansolid,https://dev.to/playfulprogramming/entering-the-age-of-ai-a-laggards-tale-56i1,2026-02-27,8617
+192,"How to Securely Expose Your Jellyfin Using Oracle Cloud (Free Tier), Tailscale, and Nginx",thiteago,https://dev.to/thiteago/how-to-securely-expose-your-jellyfin-using-oracle-cloud-free-tier-tailscale-and-nginx-1k15,2026-06-30,12881
+193,How We Achieved Up to 71% Faster Email Search with PostgreSQL Full-Text Search,_877737de2d34ff8c6265,https://dev.to/_877737de2d34ff8c6265/how-we-achieved-up-to-71-faster-email-search-with-postgresql-full-text-search-2mn7,2025-11-25,15394
+194,The Real Skill in Programming Is Debugging. Everything Else Is Copy-Paste,sylwia-lask,https://dev.to/sylwia-lask/the-real-skill-in-programming-is-debugging-everything-else-is-copy-paste-i39,2026-03-05,7402
+195,Valkey 9.1's hash field TTL triples memory use for the pattern its own docs show,alexgeorgiev17,https://dev.to/alexgeorgiev17/valkey-91s-hash-field-ttl-triples-memory-use-for-the-pattern-its-own-docs-show-22k8,2026-09-11,11255
+196,"Google Analytics, SaaS, or self-hosted? How I chose my analytics stack",sebhoek,https://dev.to/sebhoek/google-analytics-saas-or-self-hosted-how-i-chose-my-analytics-stack-271g,2026-02-13,12871
+197,Aborting a Fetch Doesn't Stop Your Node.js Server. Here's What Does.,shubhradev,https://dev.to/shubhradev/aborting-a-fetch-doesnt-stop-your-nodejs-server-heres-what-does-2fek,2026-10-06,11517
+198,I Planned an Exit Strategy. I Stayed the Whole Time.,earlgreyhot1701d,https://dev.to/earlgreyhot1701d/i-planned-an-exit-strategy-i-stayed-the-whole-time-4ejh,2026-03-09,7406
+199,"After a long journey, I've reached a deep burnout",embernoglow,https://dev.to/embernoglow/after-a-long-journey-ive-reached-a-deep-burnout-1o4b,2026-06-28,3801
+200,"Aurora Serverless v2: When ""I/O Optimized"" Actually Costs You More",ahmedshendy,https://dev.to/aws-builders/aurora-serverless-v2-when-io-optimized-actually-costs-you-more-4bb2,2025-12-25,5887
