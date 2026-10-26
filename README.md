@@ -967,8 +967,7 @@ I think that my model will have a higher macro accuracy for opinions. My model h
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
-
-
+My fine tuning worked quite well. Across all boards, we see at least a 20% increase in accuracy. The greatest increase comes from analysis articles, which sees an accuracy growth of ~66%
 
 ---
 
@@ -977,31 +976,30 @@ I think that my model will have a higher macro accuracy for opinions. My model h
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-|---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.600 | 0.667 | 0.800 | 0.200 |
+| Macro F1 | 0.526 | 0.647 | 0.771 | 0.245 |
+| F1 — `Analysis` | 0.444 | 0.824 | 0.667 | 0.379 |
+| F1 — `Guide` | 0.333 | 0.429 | 0.750 | 0.417 |
+| F1 — `Opinion` | 0.800 | 0.690 | 0.897 | 0.207 |
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+| true \ predicted | Analysis | Guide | Opinion |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **Analysis** | 4 | 1 | 4 |
+| **Guide** | 5 | 2 | 1 |
+| **Opinion** | 0 | 1 | 12 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
-
-
+My biggest off-diagonoal number is 5. These are 5 `guide` posts that are labeled `analysis`. There were also 4 `analysis` posts that were labeled `opinion`. However, there was only 1 `analysis` post listed as `guide`, and 0 `opinion` pieces that were labeled as `analysis`. THis means that the largest discrepency is with Analysis.
 
 ---
 
@@ -1041,7 +1039,7 @@ I think that my model will have a higher macro accuracy for opinions. My model h
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 29 / 30 = 96.67%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -1064,26 +1062,16 @@ I think that my model will have a higher macro accuracy for opinions. My model h
      what you did across your own 200. -->
 
 **1.**
-> *The post:*
+> *The post:* Pulled the splits from the last five editions. The winning time has moved by 40 seconds total in ten years, but the 100th-place time is four minutes faster. The depth changed, the front didn't.
 >
-> *Staff said / I said:*
+> *Staff said / I said:* Staff said `analysis`, where I said `reactionary`
 >
-> *My call, and why:*
+> *My call, and why:* My instinct was reaction due to the first sentence, where the user draws a conclusion immediately based on something they pulled. I didn't read the second piece clearly where a generalistic statement is made based upon the facts stated previously.
 >
-> *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
+> *Which pile:* (a) the rule covered it and I applied it loosely. Staff said analysis, which is correct after further review as the checakble fact is indeed load bearing. 
 
 **What the pattern in my disagreements tells me:**
-
-
+My pattern in the disagreements tells me that I am biased on the first part of any text presented. My instinct was to take `Pulled the splits from the last five editions` and deem that as a reaction without reading the data and conclusion afterwards.
 
 ---
 

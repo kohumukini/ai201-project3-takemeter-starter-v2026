@@ -99,7 +99,7 @@ whether you hit them:
 
 <!-- Your criterion. -->
 
-**Why this target:** Test's the model's stability. Ensures that the model is not lucky/overreliant on the seed to make accurate predictions, but maintains a reasonable accuracy across different seedings. 10% is a reasonable threshold to maintain as a range between the three seedings because of variance.
+**Why this target:** 
 
 ---
 
