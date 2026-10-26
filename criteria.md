@@ -95,11 +95,14 @@ whether you hit them:
 
 ---
 
-## 5. Accuracy spread across several seeds is at most 10%
+## 5. On every seed, the model's confidence exceeds its accuracy by no more than 10% (accuracy - mean_confidence - 10%)
+
+Original: Accuracy spread across several seeds is at most 10%
+Change: Due to repeated critiera
 
 <!-- Your criterion. -->
 
-**Why this target:** 
+**Why this target:** A modest model does not mislead anyone. An overconfident model is dangerous. The model should be nearly as confident in its answers as it should be in it's accuracy.
 
 ---
 

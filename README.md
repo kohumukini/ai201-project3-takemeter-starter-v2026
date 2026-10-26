@@ -1008,15 +1008,23 @@ My biggest off-diagonoal number is 5. These are 5 `guide` posts that are labeled
 <!-- MET or MISSED against LAST UNIT's target. The target has to hold across
      all three seeds, not turn up sometimes. -->
 
-| # | Criterion | Target | Verdict | How I decided |
+| # | Criterion | Target | Seed 1 | Seed 2 | Seed 3 | Verdict |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Label dataset % | 25% | MET | MET | MET | MET |
+| 2 | Every Label F1 | > 60% | 44.4%/33.3%/92.3% | 82.3%/42.9%/69.0% | 66.7%/75%/89.7% | FAILED |
+| 3 | Accuracy spread | <= 10% | 59% | 39.4% | 23% | FAILED |
+| 4 | Content soreted correctly between `analysis` and `guide` | >= 60% | 50% | 91% | 78.5% | FAILED |
+| 5 | Model Accuracy > Mean Confidence - 10% | 3/3 | MET | MET | MET | MET |
 
 **Diagnoses**
+
+- Criterion 2: A boundary I applied inconsistently
+- Criterion 3: A boundary I applied inconsistently
+- Criterion 4: A boundary I applied inconsistently & a genuinely hard label pair
+
+As per the agreement report, I do tend to inconsistently apply rules in favor of the first few sentences within an article. However, there is also the discrepency of information for each article, as dev.to articles are quite long.
+
+However, I do feel unconfident in the labels that I applied to each of the articles, especially the ones with the boundary between `analysis` and `guide`. Many of them guided the user to an outcome while providing information that deemed the process as the best way. Some analysis articles also guided the user through their thought process, which could be hard to differentiate for the model. 
 
 <!-- For each miss: the cause, and how you know. The four common causes are:
      too few examples for a label, a boundary you applied inconsistently, a
@@ -1026,8 +1034,6 @@ My biggest off-diagonoal number is 5. These are 5 `guide` posts that are labeled
      ⚠️ Use your agreement report as evidence. It is the only instrument you
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
-
-
 
 ---
 
