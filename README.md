@@ -339,9 +339,9 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| `Analysis` | 93 | 46.5% |
+| `Guide` | 55 | 27.5% |
+| `Opinion` | 52 | 26.0% |
 | **Total** |  | 100% |
 
 **Three hard cases**
@@ -925,6 +925,10 @@ of next unit's variance. -->
 - *What came back:* Claude came back with 200 articles, then another 50 or so after re-fetching
 - *What I changed:* I labeled about a third of these articles, and then asked claude to remove a few ones that I marked.
 
+- *What I asked for:* I asked claude to go over the labels once again, and give me a list of items that are highly likely to be mislabeled, that could be mislabeled, and then the ones that are completely out of scope.
+- *What came back:* Claude came back with a few rows alongside suggestions for each. It also suggested a few labels that we should get rid of, however I cannot get rid of those as that would increase the number of changes made.
+- *What I changed:* I read through each article, and agreed with each of it's suggestions changing each one as I re-read through the article. 
+
 **Pre-labelling disclosure:**
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
@@ -1083,26 +1087,32 @@ My pattern in the disagreements tells me that I am biased on the first part of a
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** I went back through and re-labeled a few of the articles that were given. I also ran those labels through claude to see if there are definitive changes necessary for them, and if the label I assigned to each had a high amount of confidence in correctness.
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** A lot of my labels were being mis-represented. This either means that the model isn't learning, that there are labeling errors (what I just fixed), or that the difference between the two labels is not vast enough for the model to learn the difference.
 
 ### Run Log — After
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-|---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.767 | 0.600 | 0.800 | 0.200 |
+| Macro F1 | 0.746 | 0.585 | 0.778 | 0.192 |
+| F1 — `Analysis` | 0.824 | 0.714 | 0.800 | 0.109 |
+| F1 — `Guide` | 0.615 | 0.375 | 0.667 | 0.292 |
+| F1 — `Opinion` | 0.800 | 0.667 | 0.867 | 0.200 |
+
+| true \ predicted | Analysis | Guide | Opinion |
+|---|---|---|---|
+| **Analysis** | 7 | 0 | 1 |
+| **Guide** | 1 | 4 | 3 |
+| **Opinion** | 1 | 1 | 12 |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
 
-
+Yes, adjusting the labels did help. The spread between all three labels is still the same, however our overall accuracy for the first seed has increased by a greater margin than the decrease in the second seed. We also see a decline in spread for accuracy between **ALL** three labels. Our macro f1 score has also increased, with the spread decreasing.
 
 ---
 
@@ -1110,13 +1120,13 @@ My pattern in the disagreements tells me that I am biased on the first part of a
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
 
-
+All three criteria, `[2, 3, 4] => [Label F1 accuracy, Accuracy Spread Between Labels, Content sorted correctly between "analysis" and "guide"]` still fail. This is likely due to a lack of data. We currently have `opinion`, which takes up almost 50% of the entire dataset, compared to the other two labels, which have ~27% each. I stopped because the one change that I did make was to adjust the labels given to the model. A secondary change would have been to increase the amount of labels for both `guide` and `analysis` to at least 30%,.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
 
-
+The gap is still between analysis and guide. The model still confuses guide with analysis, compared to the other counts where analysis had 7/8 correct predictions and opinion had 12/14.
 
 <!-- ═════════════════════════════════════════════════════════════════════
 

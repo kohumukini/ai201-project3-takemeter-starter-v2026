@@ -7834,7 +7834,7 @@ I’ll keep documenting this journey, the confusion, clarity, and all.
 — *Jessica Aki*
 Data and Database Engineering Enthusiast  
 
-I’m documenting my journey into data engineering learning SQL, databases, and the systems behind modern data platforms.",Opinion,pre-labeled; ambiguous: Opinion/Guide
+I’m documenting my journey into data engineering learning SQL, databases, and the systems behind modern data platforms.",Guide,pre-labeled; ambiguous: Opinion/Guide
 "The Developer's Safety Net - Introduction to TypeScript
 
 Hey everyone!👋
@@ -8346,7 +8346,7 @@ I'm especially interested in hearing from anyone who:
 - Has opinions on the dashboard UX for cert lifecycle visibility
 - Has hit edge cases with DNS-01 validation they'd want handled better
 
-If you're dealing with shorter cert lifetimes or just tired of silent renewal failures, [give it a try](https://app.krakenkey.io) — I'd genuinely appreciate the feedback.",Analysis,pre-labeled; ambiguous: Analysis/Guide
+If you're dealing with shorter cert lifetimes or just tired of silent renewal failures, [give it a try](https://app.krakenkey.io) — I'd genuinely appreciate the feedback.",Opinion,pre-labeled; ambiguous: Analysis/Guide
 "I Got the proxy.ts Matcher Wrong for Three Projects Before I Understood Why
 
 A few days ago I published a post about the three-layer auth model and the invoice incident that made me rebuild how I think about Next.js 16 auth. More people had hit the same thing than I expected.
@@ -11223,7 +11223,7 @@ _Let's leverage this community to share our experiences._
 
 Feel free to reach out to me in the comments or directly and connect, I would be happy to give you more personalised advice!
 
-Good luck to you if you're currently job searching! Keep going!",Guide,pre-labeled; ambiguous: Guide/Opinion
+Good luck to you if you're currently job searching! Keep going!",Opinion,pre-labeled; ambiguous: Guide/Opinion
 "Stop Paying for Cloud: Deploy a Highly Available Cluster on Your Own Hardware in Minutes | MicroCloud
 
 A 4-node highly available cluster with distributed storage, software-defined networking, and automatic failover. About 30 minutes to deploy. No Terraform. No Ansible playbooks. No 47-page architecture doc.
@@ -12856,7 +12856,7 @@ Or will this trend disappear before it ever reaches the mainstream?
 
 I'm genuinely curious what you think.
 
-If you enjoy my articles, feel free to follow me on [LinkedIn](https://www.linkedin.com/in/sylwia-laskowska-5a8467131/) as well.",Guide,pre-labeled; ambiguous: Guide/Opinion
+If you enjoy my articles, feel free to follow me on [LinkedIn](https://www.linkedin.com/in/sylwia-laskowska-5a8467131/) as well.",Opinion,pre-labeled; ambiguous: Guide/Opinion
 "Forensic Receipts: From Trusted to Proven
 
 *Part 6 of the Building the AI Memory Stack series*
@@ -17230,7 +17230,7 @@ The industry didn't decide to stop producing seniors. It automated the thing tha
 
 *Originally published at [nazarboyko.com](https://www.nazarboyko.com/articles/the-junior-developer-pipeline-is-broken-and-ai-broke-it).*
 
-**Enjoyed this one? Let's stay in touch - I'm on [LinkedIn](https://www.linkedin.com/in/nazar-boyko), always happy to chat, swap ideas, or just say hi. 👋**",Analysis,pre-labeled; ambiguous: Analysis/Opinion
+**Enjoyed this one? Let's stay in touch - I'm on [LinkedIn](https://www.linkedin.com/in/nazar-boyko), always happy to chat, swap ideas, or just say hi. 👋**",Opinion,pre-labeled; ambiguous: Analysis/Opinion
 "Developers Think AI Makes Them 24% Faster. The Data Says 19% Slower.
 
 Last month, METR published a study that should make every developer uncomfortable.
@@ -19707,7 +19707,7 @@ If you’re on the same path, you’re not alone. You can join me on this series
 — *Jessica Aki*
 Data and Database Engineering Enthusiast  
 
-I’m documenting my journey into data engineering learning SQL, databases, and the systems behind modern data platforms.",Opinion,pre-labeled; ambiguous: Opinion/Guide
+I’m documenting my journey into data engineering learning SQL, databases, and the systems behind modern data platforms.",Guide,pre-labeled; ambiguous: Opinion/Guide
 """2026"", AI Users vs The Unemployed.
 
 I just read a stat that made me sit up straight.
@@ -24665,7 +24665,7 @@ Running Node.js in production? How do you handle dependency security? Drop your 
 
 ---
 
-*These attacks are real. The numbers are real. The threat is ongoing. Stay safe out there.*",Analysis,pre-labeled; ambiguous: Analysis/Guide
+*These attacks are real. The numbers are real. The threat is ongoing. Stay safe out there.*",Guide,pre-labeled; ambiguous: Analysis/Guide
 "It Was Just a Patch Update. What Could Possibly Go Wrong?
 
 *This is a submission for [DEV's Summer Bug Smash: Smash Stories](https://dev.to/bugsmash) powered by [Sentry](https://sentry.io/).*
@@ -25703,7 +25703,7 @@ Security folks: What would make you comfortable with QA accessing (scrubbed) pro
 Test architects: Would you adopt a tool like this if it had SOC 2 certification?
 Drop your thoughts in the comments. And if you’re building something similar, let’s compare notes.
 
-This research is part of a larger project to build privacy-first QA tooling for regulated industries. Follow along for updates on the prototype, or DM me if you want to beta test.",Analysis,pre-labeled; ambiguous: Analysis/Opinion
+This research is part of a larger project to build privacy-first QA tooling for regulated industries. Follow along for updates on the prototype, or DM me if you want to beta test.",Opinion,pre-labeled; ambiguous: Analysis/Opinion
 "The Open Sourcerer of Forem: Beyond the UI
 
 # Introducing a New Series **""The Open Sourcerer of Forem""!**
@@ -27678,7 +27678,7 @@ The real skill lies in knowing **where to automate and where to think**.
 
 Let AI eliminate boilerplate, search unfamiliar territory, explain complex concepts, and review your work. But occasionally, make your brain do the heavy lifting: **predict, recall, debug, design, and explain.**
 
-Tools increase our output, but understanding increases our capability. The goal isn't just to build things because AI can build them—it's to build things we couldn't build before, while understanding more than when we started.",Guide,pre-labeled; ambiguous: Guide/Opinion
+Tools increase our output, but understanding increases our capability. The goal isn't just to build things because AI can build them—it's to build things we couldn't build before, while understanding more than when we started.",Opinion,pre-labeled; ambiguous: Guide/Opinion
 "I Tried Speculative Decoding on RTX 4060 8GB — Every Config Was Slower Than Baseline
 
 # I Tried Speculative Decoding on RTX 4060 8GB — Every Config Was Slower Than Baseline
